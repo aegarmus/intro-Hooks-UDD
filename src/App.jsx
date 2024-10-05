@@ -1,4 +1,5 @@
 import { Contador } from "./components/Contador"
+import { ContadorSegundos } from "./components/ContadorSegundos"
 
 
 export const App = () => {
@@ -10,6 +11,10 @@ export const App = () => {
 
         <section>
           <Contador />
+        </section>
+
+        <section>
+          <ContadorSegundos />
         </section>
     </>
   )
